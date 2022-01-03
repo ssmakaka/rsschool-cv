@@ -78,9 +78,12 @@ function maskify(cc) {
 };
 ```
 ---
+
 ## Profile
 
 After graduation, I started working as a seo specialist, in this position I worked for about 5 years and reached great heights. Next, I started my own repurposing and completed the Front-end Developer courses. In 2017, I became a mother and my career was paused. Today, I want to fill in the gaps that have formed during my pause.
+
+---
 
 ## Languages:
 
