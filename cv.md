@@ -8,7 +8,7 @@
 **Address:** New Borovaya<br>
 **Phone:** +375 29 323 75 99<br>
 **E-mail:** smakaka@yandex.ru<br>
-**Telegram:** [@smakaka](t.me/smakaka)<br>
+**Telegram:** [@smakaka](https://t.me/smakaka)<br>
 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0-%D0%BA%D0%B0%D0%BC%D0%BE%D1%86%D0%BA%D0%B0%D1%8F-a1291084/)<br>
 
 ---
