@@ -1,5 +1,5 @@
 # Alyaksandra Kamotskaya
-![Alyaksandra Kamotskaya](/img/photo.jpg)
+![Alyaksandra Kamotskaya](img/photo.jpg)
 
 ---
 
