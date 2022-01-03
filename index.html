@@ -1,13 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alayksandra Kamotskaya</title>
-    <link href="css/style" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fonts/robotoslab.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/239a9df072.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header>
+        <div class="header__inner">
+            <nav class="header-nav">
+                <ul class="nav">
+                    <li class="nav__item"><a class="nav__link" href="#skills">skills</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#experience">experience</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#education">education</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#lang">lang</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container__wrapper">
+                <div class="column-left">
+                    <div class="my-photo">
+
+                        <div class="my-photo__img">
+                            <img src="img/main-photo.jpg" alt="Alyaksandra Kamotskaya">
+                        </div>
+                    </div>
+                    <section class="about-me">
+                        <h1><span>Alyaksandra</span> Kamotskaya</h1>
+                        <h3>FONTEND DEVELOPER</h3>
+                        <div class="about-me__content">
+                            After graduation, I started working as a seo specialist, in this position I worked for about
+                            5
+                            years and reached great heights. Next, I started my own repurposing and completed the
+                            Front-end
+                            Developer courses. In 2017, I became a mother and my career was paused. Today, I want to
+                            fill in
+                            the gaps that have formed during my pause.
+                        </div>
+                    </section>
+                    <section class="experience">
+                        <div class="h2">
+                            <h2>WORK EXPERIENCE</h2>
+                        </div>
+                        <article class="experience__item">
+                            <div class="experience__data">
+                                <time datetime="2017">2017</time> - <time datetime="2022">2022</time>
+                            </div>
+                            <div class="experience__company-name">
+                                Freelance
+                            </div>
+                            <div class="experience__position">
+                                HTML-coder
+                            </div>
+                            <div class="experience__responsibility">
+                                Layout landing page: <a href="https://baborfranchise.kz/">baborfranchise</a>, <a
+                                    href="http://britannica.kz/">britannica</a>, <a
+                                    href="https://empire.kz/franchise/">empire</a>, <a
+                                    href="http://fr.thebeze.kz/">thebeze</a>, <a
+                                    href="https://fr.zabotaempire.com/">zabotaempire</a>
+                            </div>
+                        </article>
+                        <article class="experience__item">
+                            <div class="experience__data">
+                                <time datetime="2016">2016</time> - <time datetime="2017">2017</time>
+                            </div>
+                            <div class="experience__company-name">
+                                UnitedTeam
+                            </div>
+                            <div class="experience__position">
+                                HTML-coder
+                            </div>
+                            <div class="experience__responsibility">
+                                <ul>
+                                    <li>layout of pages and individual blocks;</li>
+                                    <li>adaptive layout;</li>
+                                    <li>using HTML5, CSS3</li>
+                                    <li>use of LESS preprocessors;</li>
+                                    <li>cross-browser, valid layout;</li>
+                                    <li>experience with bootstrap;</li>
+                                    <li>study and practical application of jQuery;</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="experience__item">
+                            <div class="experience__data">
+                                <time datetime="2015">2015</time> - <time datetime="2016">2016</time>
+                            </div>
+                            <div class="experience__company-name">
+                                United Company
+                            </div>
+                            <div class="experience__position">
+                                Project-manager
+                            </div>
+                            <div class="experience__responsibility">
+                                Development and integration of business processes. Evaluation, planning and control of
+                                the timing of work, KPI analysis. Search for new employees and interviews. Creation and
+                                maintenance of contextual campaigns in Ya.Direct, Google AdWords. Creation and
+                                maintenance of targeted advertising on Facebook.com, Vk.com, Ok.ru. Website promotion in
+                                Yandex and Google (more than 8,000 requests). Layout of individual blocks. Analysis of
+                                the effectiveness of Yandex.Metrica, Google Analytics. Website development on Wordpress
+                                salad-drive.by.
+                            </div>
+                        </article>
+                    </section>
+                    <section class="code">
+                        <div class="h2">
+                            <h2>Code example</h2>
+                        </div>
+                        <pre>
+<code>
+    function maskify(cc) {
+        let [...a]= cc;
+        for (let i = 0; i < (a.length - 4); i++) {
+            a[i]="#";
+        }
+        a = a.join("");
+        return a;
+    };
+</code>
+                            </pre>
+                    </section>
+                </div>
+                <div class="column-right">
+                    <section class="contacts">
+                        <div class="h2">
+                            <h2>Contacts</h2>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <i class="fas fa-phone-square-alt"></i>
+                            </div>
+                            <div class="contacts__content">
+                                <a href="tel:+375293237599">+375 (29) 323-75-99</a>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contacts__content">
+                                <a href="mailto:smakaka@yandex.ru">smakaka@yandex.ru</a>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <i class="fab fa-telegram-plane"></i>
+                            </div>
+                            <div class="contacts__content">
+                                <a href="https://t.me/smakaka">@smakaka</a>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contacts__content">
+                                <a
+                                    href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0-%D0%BA%D0%B0%D0%BC%D0%BE%D1%86%D0%BA%D0%B0%D1%8F-a1291084/">Alyaksandra
+                                    Kamotskaya</a>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div class="contacts__content">
+                                New Borovaya
+                            </div>
+                        </div>
+                    </section>
+                    <section class="education">
+                        <div class="h2">
+                            <h2>Education & Courses</h2>
+                        </div>
+
+                        <div class="education__item">
+                            <div class="education__name">
+                                Skillbox
+                            </div>
+                            <div class="education__data">
+                                <time datetime="2021">2021</time> - <time datetime="2022">2022</time>
+                            </div>
+                            <div class="education__content">
+                                Framework Vue.js
+                            </div>
+                        </div>
+                        <div class="education__item">
+                            <div class="education__name">
+                                MyFreedom
+                            </div>
+                            <div class="education__data">
+                                <time datetime="2021">2021</time> - <time datetime="2021">2021</time>
+                            </div>
+                            <div class="education__content">
+                                Advanced JavaScript
+                            </div>
+                        </div>
+                        <div class="education__item">
+                            <div class="education__name">
+                                IT-Academy
+                            </div>
+                            <div class="education__data">
+                                <time datetime="2015">2015</time> - <time datetime="2015">2015</time>
+                            </div>
+                            <div class="education__content">
+                                Front-end Developer
+                            </div>
+                        </div>
+                        <div class="education__item">
+                            <div class="education__name">
+                                Francisk Skorina Gomel State University
+                            </div>
+                            <div class="education__data">
+                                <time datetime="2004">2004</time> - <time datetime="2009">2009</time>
+                            </div>
+                            <div class="education__content">
+                                Automated information processing systems
+                            </div>
+                        </div>
+                        <div class="education__item">
+                            <div class="education__name">
+                                Institute of Business and Technology Management, BSU (2013)
+                            </div>
+                            <div class="education__data">
+                                <time datetime="2010">2010</time> - <time datetime="2013">2013</time>
+                            </div>
+                            <div class="education__content">
+                                Business Administration, Manager-Economist
+                            </div>
+                        </div>
+                    </section>
+                    <section class="skills">
+                        <div class="h2">
+                            <h2>Skills</h2>
+                        </div>
+                        <span>HTML5</span> <span>CSS3</span>
+                        <span>SASS/SCSS (mixin/extend)</span> <span>BEM</span> <span>Bootstrap</span>
+                        <span>JavaScript</span> <span>Vue.js</span> <span>jQuery</span>
+                        <span>Wordpress</span> <span>1c Bitrix</span>
+                        <span>Figma</span> <span>Photoshop</span>
+                    </section>
+                    <section class="lang">
+                        <div class="h2">
+                            <h2>Languages</h2>
+                        </div>
+                        <div class="lang__item">
+                            <div class="lang__content">
+                                English - A2 (B1 learning)
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__copirate">
+                © 2022 by Alyaksandra Kamotskaya
+            </div>
+            <div class="footer__links">
+                <a href="https://github.com/ssmakaka/rsschool-cv" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="footer__rsschool">
+                <a href="https://rs.school/js/" target="_blank"><img src="img/rs_school_js.svg"></a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
