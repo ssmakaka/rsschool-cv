@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ssmakaka.github.io/rsschool-cv/cv
