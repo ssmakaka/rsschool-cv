@@ -102,6 +102,9 @@ body {
 
     &__wrapper {
         display: flex;
+        @media(max-width:767px){
+            flex-direction: column;
+        }
     }
 }
 
@@ -129,11 +132,30 @@ body {
 .column-left {
     max-width: 65%;
     padding: 0 15px;
+    @media(max-width:767px){
+        max-width: 100%;
+        order: 3;
+    }
+    &.mobile{
+        order: 1;
+        @media(min-width:768px){
+            display: none;
+        }
+    }
+    .mobile2{
+        @media(max-width:767px){
+            display: none;
+        }
+    }
 }
 
 .column-right {
     max-width: 35%;
     padding: 0 15px;
+    @media(max-width:767px){
+        order: 2;
+        max-width: 100%;
+    }
 }
 
 .my-photo {
@@ -159,11 +181,24 @@ body {
         font-weight: normal;
         font-size: 3em;
         color: #000;
-
+        @media(max-width: 890px) {
+            font-size: 3em;
+        }
+        @media(max-width: 540px){
+            font-size: 45px;
+        }
         span {
             font-weight: bold;
             font-size: 2em;
             color: $main-color;
+
+            @media(max-width: 1130px) {
+                font-size: 1.5em;
+            }
+            @media(max-width: 890px) {
+                font-size: inherit;
+            }
+
         }
     }
 }
